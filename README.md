@@ -16,4 +16,4 @@ Secure-Messager is a pair of applications; a client and a server. The two applic
 </br>
 
 ### Usage
-To run Secure-Messager make sure that the latest version of the JRE is installed,
+To run Secure-Messager make sure that Java is installed on the system. Source files for each application need to be compiled separately (compiling to a .jar format may make running the application easier). Then you may either run the 
