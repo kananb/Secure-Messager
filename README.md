@@ -16,4 +16,14 @@ Secure-Messager is a pair of applications; a client and a server. The two applic
 </br>
 
 ### Usage
-To run Secure-Messager make sure that Java is installed on the system. Source files for each application need to be compiled separately (compressing the files into a `.jar` format may make running the application easier). Then you may either run the Launcher class through the command line or run the double-click the application if it was compressed into a `.jar`.
+To use the Secure-Messager application pair you will first have to compile the source files provided in this repository.
+
+##### Client
+1. Compile the client source files
+2. Compress the files into a `.jar` file format (optional)
+3. Run the Launcher class through the command line or double-click the newly created `.jar`
+
+##### Server
+1. Compile the server source files
+2. Compress the files into a `.jar` file format (optional)
+3. Run the Launcher class or the newly created `.jar` through the command line
