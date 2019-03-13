@@ -1,4 +1,4 @@
-package server.encryption.polyalphabetic;
+package server.encryption;
 
 public class Polyalphabetic {
 
