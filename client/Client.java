@@ -3,8 +3,8 @@ package client;
 import java.io.File;
 
 import client.gui.GUI;
-import client.encryption.polyalphabetic.Polyalphabetic;
-import client.encryption.rsa.RSA;
+import client.encryption.Polyalphabetic;
+import client.encryption.RSA;
 
 public class Client {
 
