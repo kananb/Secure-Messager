@@ -1,4 +1,4 @@
-package server.encryption.rsa;
+package server.encryption;
 
 import java.io.BufferedReader;
 import java.io.File;
