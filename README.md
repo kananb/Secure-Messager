@@ -1,11 +1,11 @@
 # Secure Messager
 
-### Summary
+# Summary
 Secure-Messager is a pair of applications; a client and a server. The two applications work together to allow a user to securely send messages to other clients connected to the server. The server will generate a symmetric key for each client for communication. Symmetric keys are encrypted using RSA encryption before being sent to the client making it impossible for anyone using modern technology, except for the intended user, to decrypt the symmetric key.
 
 </br>
 
-### Features
+# Features
 
 	- 4096-bit RSA Encryption for secure symmetric key sharing
 	- Vignere cipher used to encrypt all data transferred between the clients and the server
@@ -15,7 +15,7 @@ Secure-Messager is a pair of applications; a client and a server. The two applic
 	
 </br>
 
-### Compiling
+# Compiling
 First make a directory to clone the source files into and cd into that new directory
 then do:
 ```
@@ -26,7 +26,7 @@ then do:
 
 After that you can start compiling the source files
 
-#### Client
+## Client
 Starting inside the cloned directory (Secure-Messager)
 ```
 > cd client
@@ -37,7 +37,7 @@ Starting inside the cloned directory (Secure-Messager)
 
 Now there should be a file called Client.jar in the `build` directory. You can double click it to open the client application.
 
-#### Server
+## Server
 Starting inside the cloned directory (Secure-Messager)
 ```
 > cd server
@@ -50,13 +50,13 @@ Now there should be a file called Server.jar in `Secure-Messager/build`. See how
 
 </br>
 
-### Usage
+# Usage
 To use the Secure-Messager application pair you will first have to compile the source files provided in this repository.
 
-##### Client
+### Client
 Simply double click Client.jar in the build directory. If you don't have this file or folder see the instructions for compiling the source code above.
 
-##### Server
+### Server
 Open your favorite command line interpreter, cd into the cloned directory (Secure-Messager), and enter the following command.
 ```
 > java -jar build/Server.jar [port]
