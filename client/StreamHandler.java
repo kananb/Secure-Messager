@@ -11,7 +11,7 @@ import java.net.Socket;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
-import client.encryption.encoding.Converter;
+import client.encryption.Converter;
 import client.gui.GUI;
 
 public class StreamHandler extends Thread {
