@@ -1,4 +1,4 @@
-package client.encryption.encoding;
+package client.encryption;
 
 import java.math.BigInteger;
 
