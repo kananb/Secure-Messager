@@ -53,10 +53,10 @@ Now there should be a file called Server.jar in `Secure-Messager/build`. See how
 # Usage
 To use the Secure-Messager application pair you will first have to compile the source files provided in this repository.
 
-### Client
+## Client
 Simply double click Client.jar in the build directory. If you don't have this file or folder see the instructions for compiling the source code above.
 
-### Server
+## Server
 Open your favorite command line interpreter, cd into the cloned directory (Secure-Messager), and enter the following command.
 ```
 > java -jar build/Server.jar [port]
