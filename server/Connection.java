@@ -6,9 +6,9 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-import server.encryption.encoding.Converter;
-import server.encryption.polyalphabetic.Polyalphabetic;
-import server.encryption.rsa.RSA;
+import server.encryption.Converter;
+import server.encryption.Polyalphabetic;
+import server.encryption.RSA;
 
 public class Connection extends Thread {
 
